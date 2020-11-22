@@ -338,7 +338,7 @@ input[type="submit"]:focus {
     object-fit: cover;
     background-color: #fff;
     border: 3px solid #fff;
-    border-radius: 300px;
+    border-radius: 50%;
 }
 .header-photo:after {
     position: absolute;
@@ -478,7 +478,7 @@ input[type="submit"]:focus {
 .section-active,
 .no-js .animated-section {
     opacity: 1;
-    overflow: auto;
+    overflow: auto  ;
     visibility: visible;
     z-index: 99;
 }
@@ -1966,7 +1966,9 @@ blockquote {
         font-size: 17px;
     }
     .header-photo {
-        max-width: 130px;
+        max-width: 150px;
+        width: 150px;
+        height: 150px;
         margin-bottom: 25px;
     }
     .mobile-menu-hide {
