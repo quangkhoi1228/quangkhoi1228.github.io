@@ -1647,6 +1647,9 @@ input[type="text"],
     text-align: center;
     border-radius: 0;
 }
+[data-id="contact"]{
+    overflow: hidden;
+}
 .portfolio-page-content .share-buttons a {
     margin: 0 7px 0 0;
 }
